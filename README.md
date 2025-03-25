@@ -60,7 +60,7 @@ find ~/boost_1_69_0/stage/lib -name "*.a" -exec cp {} ~/boost-libs \;
 
 
 du -ah ~/boost-libs | sort -rh
-показывает размер всех файлов, сортирует по разиеоу
+показывает размер всех файлов, сортирует по размеру
 
 
 du -ah ~/boost-libs | sort -rh | head -n 10
